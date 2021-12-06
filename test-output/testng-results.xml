@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4818" started-at="2021-12-05T20:28:58Z" finished-at="2021-12-05T20:29:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4818" started-at="2021-12-05T20:28:58Z" finished-at="2021-12-05T20:29:02Z">
+      <class name="com.api.qa.test.apiValidationTest">
+        <test-method status="PASS" signature="validatePostApiResponseCode(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.api.qa.test.apiValidationTest@527740a2]" name="validatePostApiResponseCode" duration-ms="3045" started-at="2021-12-05T20:28:58Z" data-provider="getApiData" finished-at="2021-12-05T20:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com/posts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostApiResponseCode -->
+        <test-method status="PASS" signature="validatePostApiResponseCode(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.api.qa.test.apiValidationTest@527740a2]" name="validatePostApiResponseCode" duration-ms="844" started-at="2021-12-05T20:29:01Z" data-provider="getApiData" finished-at="2021-12-05T20:29:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com/posts/1/comments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostApiResponseCode -->
+      </class> <!-- com.api.qa.test.apiValidationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
